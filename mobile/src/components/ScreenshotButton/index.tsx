@@ -2,7 +2,6 @@ import { Camera, Trash } from 'phosphor-react-native';
 import React from 'react';
 import { Image, TouchableOpacity, View } from 'react-native';
 import { theme } from '../../theme';
-
 import { styles } from './styles';
 
 interface Props {
@@ -33,8 +32,6 @@ export function ScreenshotButton({ screenshot, onTakeShot, onRemoveShot }: Props
 						color={theme.colors.text_secondary}
 						weight="bold"
 					/>
-
-
 			}
 		</TouchableOpacity>
 	);

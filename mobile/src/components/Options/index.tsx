@@ -4,7 +4,6 @@ import { feedbackTypes } from '../../utils/feedbackTypes';
 import { Copyright } from '../Copyright';
 import { Option } from '../Option';
 import { FeedbackType } from '../Widget';
-
 import { styles } from './styles';
 
 interface Props {

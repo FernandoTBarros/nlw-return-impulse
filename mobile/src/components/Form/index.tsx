@@ -1,3 +1,4 @@
+import * as FileSystem from 'expo-file-system';
 import { ArrowLeft } from 'phosphor-react-native';
 import React, { useState } from 'react';
 import {
@@ -12,9 +13,6 @@ import { Button } from '../Button';
 import { ScreenshotButton } from '../ScreenshotButton';
 import { FeedbackType } from '../Widget';
 import { styles } from './styles';
-import * as FileSystem from 'expo-file-system'
-
-
 
 interface Props {
 	feedbackType: FeedbackType;
